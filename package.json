@@ -1,0 +1,20 @@
+{
+  "name": "parthib_associates",
+  "version": "1.0.0",
+  "description": "parthib associates web ssorce",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./Css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "keywords": [
+    "Ahj"
+  ],
+  "author": "Parthib Associates",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "sass": "^1.27.0"
+  },
+  "devDependencies": {}
+}
